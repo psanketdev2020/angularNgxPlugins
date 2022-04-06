@@ -1,0 +1,91 @@
+
+<div class="container py-3">
+  <h5 class="mb-4">ngx-loader</h5>
+  <div class="row mb-4">
+    <div class="col-4 col-md-4">
+      <button class="btn btn-sm btn-danger" (click)="loading = !loading">Toggle Loading</button>
+    </div>
+  </div>
+  <div class="loading-wrapper d-flex justify-content-between flex-wrap mx-auto">
+    <div class="loading">
+      <h5>threeBounce</h5>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil molestiae perspiciatis quos. Non nobis corrupti
+        laborum fuga odit officia sunt alias impedit sequi, harum illum iusto recusandae ad modi corporis deserunt,
+        molestias quibusdam eligendi temporibus quos voluptatem nesciunt, quo dolor. Earum, architecto vitae illum nam
+        tenetur obcaecati vero explicabo cumque.</p>
+      <ngx-loading [show]="loading"></ngx-loading>
+    </div>
+    <div class="loading">
+      <h5>chasingDots</h5>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil molestiae perspiciatis quos. Non nobis corrupti
+        laborum fuga odit officia sunt alias impedit sequi, harum illum iusto recusandae ad modi corporis deserunt,
+        molestias quibusdam eligendi temporibus quos voluptatem nesciunt, quo dolor. Earum, architecto vitae illum nam
+        tenetur obcaecati vero explicabo cumque.</p>
+      <ngx-loading [show]="loading" [config]="{animationType: ngxLoadingAnimationTypes.chasingDots}"></ngx-loading>
+    </div>
+    <div class="loading">
+      <h5>doubleBounce</h5>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil molestiae perspiciatis quos. Non nobis corrupti
+        laborum fuga odit officia sunt alias impedit sequi, harum illum iusto recusandae ad modi corporis deserunt,
+        molestias quibusdam eligendi temporibus quos voluptatem nesciunt, quo dolor. Earum, architecto vitae illum nam
+        tenetur obcaecati vero explicabo cumque.</p>
+      <ngx-loading [show]="loading" [config]="{animationType: ngxLoadingAnimationTypes.circle}"></ngx-loading>
+    </div>
+    <div class="loading">
+      <h5>circle</h5>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil molestiae perspiciatis quos. Non nobis corrupti
+        laborum fuga odit officia sunt alias impedit sequi, harum illum iusto recusandae ad modi corporis deserunt,
+        molestias quibusdam eligendi temporibus quos voluptatem nesciunt, quo dolor. Earum, architecto vitae illum nam
+        tenetur obcaecati vero explicabo cumque.</p>
+      <ngx-loading [show]="loading" [config]="{animationType: ngxLoadingAnimationTypes.circleSwish}"></ngx-loading>
+    </div>
+    <div class="loading">
+      <h5>circleSwish</h5>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil molestiae perspiciatis quos. Non nobis corrupti
+        laborum fuga odit officia sunt alias impedit sequi, harum illum iusto recusandae ad modi corporis deserunt,
+        molestias quibusdam eligendi temporibus quos voluptatem nesciunt, quo dolor. Earum, architecto vitae illum nam
+        tenetur obcaecati vero explicabo cumque.</p>
+      <ngx-loading [show]="loading" [config]="{animationType: ngxLoadingAnimationTypes.cubeGrid}"></ngx-loading>
+    </div>
+    <div class="loading">
+      <h5>cubeGrid</h5>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil molestiae perspiciatis quos. Non nobis corrupti
+        laborum fuga odit officia sunt alias impedit sequi, harum illum iusto recusandae ad modi corporis deserunt,
+        molestias quibusdam eligendi temporibus quos voluptatem nesciunt, quo dolor. Earum, architecto vitae illum nam
+        tenetur obcaecati vero explicabo cumque.</p>
+      <ngx-loading [show]="loading" [config]="{animationType: ngxLoadingAnimationTypes.doubleBounce}"></ngx-loading>
+    </div>
+    <div class="loading">
+      <h5>pulse</h5>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil molestiae perspiciatis quos. Non nobis corrupti
+        laborum fuga odit officia sunt alias impedit sequi, harum illum iusto recusandae ad modi corporis deserunt,
+        molestias quibusdam eligendi temporibus quos voluptatem nesciunt, quo dolor. Earum, architecto vitae illum nam
+        tenetur obcaecati vero explicabo cumque.</p>
+      <ngx-loading [show]="loading" [config]="{animationType: ngxLoadingAnimationTypes.pulse}"></ngx-loading>
+    </div>
+    <div class="loading">
+      <h5>rectangleBounce</h5>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil molestiae perspiciatis quos. Non nobis corrupti
+        laborum fuga odit officia sunt alias impedit sequi, harum illum iusto recusandae ad modi corporis deserunt,
+        molestias quibusdam eligendi temporibus quos voluptatem nesciunt, quo dolor. Earum, architecto vitae illum nam
+        tenetur obcaecati vero explicabo cumque.</p>
+      <ngx-loading [show]="loading" [config]="{animationType: ngxLoadingAnimationTypes.rectangleBounce}"></ngx-loading>
+    </div>
+    <div class="loading">
+      <h5>rotatingPlane</h5>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil molestiae perspiciatis quos. Non nobis corrupti
+        laborum fuga odit officia sunt alias impedit sequi, harum illum iusto recusandae ad modi corporis deserunt,
+        molestias quibusdam eligendi temporibus quos voluptatem nesciunt, quo dolor. Earum, architecto vitae illum nam
+        tenetur obcaecati vero explicabo cumque.</p>
+      <ngx-loading [show]="loading" [config]="{animationType: ngxLoadingAnimationTypes.rotatingPlane}"></ngx-loading>
+    </div>
+    <div class="loading">
+      <h5>wanderingCubes</h5>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil molestiae perspiciatis quos. Non nobis corrupti
+        laborum fuga odit officia sunt alias impedit sequi, harum illum iusto recusandae ad modi corporis deserunt,
+        molestias quibusdam eligendi temporibus quos voluptatem nesciunt, quo dolor. Earum, architecto vitae illum nam
+        tenetur obcaecati vero explicabo cumque.</p>
+      <ngx-loading [show]="loading" [config]="{animationType: ngxLoadingAnimationTypes.wanderingCubes}"></ngx-loading>
+    </div>
+  </div>
+</div>

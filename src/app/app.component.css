@@ -1,0 +1,4 @@
+header { width: 100%; background: #6d597a; box-shadow: 10px 0 10px rgba(0,0,0,.5);} 
+ul { margin-bottom: 0; } 
+ul.nav-link li a { color: #fff; text-decoration: none; } 
+ul.nav-link li { list-style: none; } 

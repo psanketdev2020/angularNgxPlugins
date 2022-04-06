@@ -1,0 +1,38 @@
+<div class="container py-4">
+    <div class="mb-3 bg-light p-3">
+        <h5 class="mb-4">ngx-timepicker</h5>
+        <timepicker [(ngModel)]="time" [showMeridian]="true"></timepicker>
+        <pre>{{time}}</pre>
+        <h1 style="color: crimson; font-style: italic;">{{curretTime}}</h1>
+    </div>
+    <div class="mb-3 bg-light p-3">
+        <h5 class="mb-4">ngx-tooltip</h5>
+        <div class="mb-4">
+            <button class="btn btn-danger" placement="auto" tooltip="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, numquam!">Demo Tooltip</button>
+        </div>
+        <div class="row mb-4">
+            <div class="col-12 col-md-3 mb-2">
+               <button class="btn btn-info" tooltip="lorem ipsum dolor sit amet." placement="top">Top Tooltip</button>
+            </div>
+            <div class="col-12 col-md-3 mb-2">
+                <button class="btn btn-info" tooltip="lorem ipsum dolor sit amet." placement="bottom">Bottom Tooltip</button>
+            </div>
+            <div class="col-12 col-md-3 mb-2">
+                <button class="btn btn-info" tooltip="lorem ipsum dolor sit amet." placement="left">Left Tooltip</button>
+            </div>
+            <div class="col-12 col-md-3">
+                <button class="btn btn-info" tooltip="lorem ipsum dolor sit amet." placement="right">Right Tooltip</button>
+            </div>
+        </div>
+        <div class="mb-4">
+            <button class="btn btn-secondary" placement="auto" tooltip="lorem ipsum dolor sit amet." triggers="focus">Dismissible Tooltip</button>
+        </div>
+        <div class="mb-4">
+            <button class="btn btn-warning" placement="right" [tooltip]="dynamicContent">Dynamic Content Tooltip</button>
+        </div>
+        <div class="mb-4 d-inline-block">
+            <ng-template #tolTemplate>{{dynamicContent}}</ng-template>
+           <h3 class="text-danger" placement="right" [tooltip]="tolTemplate">@</h3>
+        </div>
+    </div>
+</div>

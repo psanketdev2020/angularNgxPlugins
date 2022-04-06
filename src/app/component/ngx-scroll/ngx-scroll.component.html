@@ -1,0 +1,37 @@
+<div class="container py-4">
+  <h4 class="mb-3">ngx-perfect-scrollbar</h4>
+  <div class="content-container">
+    <perfect-scrollbar class="scroll-container" showAlways="true">
+      <div class="scroll-content">
+        <h5 class="mb-4 text-dark">The Best JS Frameworks for Front End</h5>
+        <ul class="scroll-ul-content">
+          <li class="d-flex justify-content-between align-items-start" *ngFor="let framework of jsFreamworks">
+            <figure>
+              <img src={{framework.img}} alt="">
+            </figure>
+            <div class="li-inner-content">
+              <h6>{{framework.name}}</h6>
+              <p>{{framework.discription}}</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </perfect-scrollbar>
+  </div>
+  <h4 class="my-3">ngx-scrollbar</h4>
+  <div class="ngxScroll">
+    <ng-scrollbar class="custome-scroll" >
+      <ul class="scroll-ul-content">
+        <li class="d-flex justify-content-between align-items-start" *ngFor="let framework of jsFreamworks">
+          <figure>
+            <img src={{framework.img}} alt="">
+          </figure>
+          <div class="li-inner-content">
+            <h6>{{framework.name}}</h6>
+            <p>{{framework.discription}}</p>
+          </div>
+        </li>
+      </ul>
+    </ng-scrollbar>
+  </div>
+</div>

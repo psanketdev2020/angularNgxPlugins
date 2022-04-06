@@ -1,0 +1,51 @@
+<div class="container py-4">
+    <!-- ngx-pagination -->
+    <h5 class="mb-3">ngx-pagination</h5>
+    <div class="row">
+        <div class="col-12 col-md-12">
+            <pagination [totalItems]="totalItems_50"></pagination>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 col-md-6">
+            <pagination [totalItems]="totalItems_100" [directionLinks]="directionLinks"></pagination>
+        </div>
+        <div class="col-6 col-md-6">
+            <button class="btn btn-danger btn-sm" (click)="directionLinks = !directionLinks">Show/Hide Direction Links</button>
+        </div>
+    </div>
+
+    <!-- ngx-popover -->
+    <h5 class="mb-3">ngx-popover</h5>
+    <div class="row">
+        <div class="col-md-2">
+            <button class="btn btn-sm btn-warning" popover="Hey! I am popover">Top Popover</button>
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-sm btn-warning" placement="right" popover="Hey! I am right popover">Right Popover</button>
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-sm btn-warning" popoverTitle="New Popover" placement="bottom" popover="Hey! I am bottom popover">Bottom Popover</button>
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-sm btn-warning" placement="left" popover="Hey! I am left popover">Left Popover</button>
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-sm btn-warning" triggers="focus" popover="Hey! I am focus popover">Focus Popover</button>
+        </div>
+    </div>
+
+    <!-- ngx-progressbar -->
+    <h5 class="my-3">ngx-progressbar</h5>
+    <div class="row">
+        <div class="col-sm-4">
+            <progressbar [value]="55">55%</progressbar>
+        </div>
+        <div class="col-sm-4">
+            <progressbar [value]="50" type="warning" [striped]="true">50%</progressbar>
+        </div>
+        <div class="col-sm-4">
+            <progressbar max="200" [value]="166" type="danger" [striped]="true" [animate]="true"><i>166/200</i></progressbar>
+        </div>
+    </div>
+</div>

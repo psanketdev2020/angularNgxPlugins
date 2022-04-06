@@ -1,0 +1,40 @@
+<div class="container">
+    <h5 class="my-4">ngx-accordion</h5>
+    <div class="accordion">
+        <accordion [isAnimated]="true" [closeOthers]="yes">
+            <accordion-group heading="Heading 1" [isOpen]="true" [panelClass]="cutsomeClass">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus placeat voluptas dolore nesciunt.
+                    Doloribus illum id, facere reprehenderit unde distinctio exercitationem. Magnam ipsa ut vero autem
+                    recusandae beatae dolores minus!</p>
+            </accordion-group>
+            <accordion-group heading="Heading 2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima maiores at eligendi ea neque nisi
+                    accusamus consequuntur, fuga blanditiis odit veritatis facere dolorum commodi repudiandae ducimus,
+                    cumque quae, eos totam!</p>
+            </accordion-group>
+            <accordion-group heading="Heading 3">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet aliquid magnam ut quis eos dolore
+                    ratione
+                    quibusdam eum nihil, possimus velit. Maiores deserunt voluptas cumque, sapiente eaque, aliquam
+                    repellendus culpa qui quibusdam porro vitae iusto. Sapiente fugit ab hic qui.</p>
+            </accordion-group>
+        </accordion>
+    </div>
+    <!-- <div ng-controller="indexCtrl">
+        <form [formGroup]="myForm">
+            Input: <input type="text" formControlName="netWorth"  ng-model="amount">
+        <h3>{{amount | currency:'INR':true}}</h3>
+        </form>
+    </div> -->
+</div>
+
+
+<!-- <div class="mt-3">
+    <form  [formGroup]="myForm">
+        <div class="form-group">
+            <input type="text" formControlName="netWorth" class="form-control w-50 m">
+        </div>
+    </form>
+   
+    <h3>{{amount | currency:"INR":true}}</h3>
+</div> -->

@@ -1,0 +1,28 @@
+<div class="container py-4">
+    <h5 class="mb-3">ngx-sorting</h5>
+    <div class="sorting">
+        <div class="sorting-array">
+            <bs-sortable
+            [(ngModel)]="itemStringsLeft "
+            itemClass="sortable-item"
+            itemActiveClass="sortable-item-active"
+            placeholderItem="Drag here"
+            placeholderClass="placeholderStyle"
+            wrapperClass="sortable-wrapper"
+          ></bs-sortable>
+          <pre class="code-preview mt-2">model: {{ itemStringsLeft  | json }}</pre>
+        </div>
+        <div class="sorting-object">
+            <bs-sortable
+                [(ngModel)]="itemObjects"
+                fieldName="name"
+                itemClass="sortable-item"
+                itemActiveClass="sortable-item-active"
+                placeholderItem="Drag here"
+                placeholderClass="placeholderStyle"
+                wrapperClass="sortable-wrapper"
+            ></bs-sortable>
+            <pre class="code-preview mt-2">model: {{ itemObjects  | json }}</pre>
+        </div>
+    </div>
+</div>

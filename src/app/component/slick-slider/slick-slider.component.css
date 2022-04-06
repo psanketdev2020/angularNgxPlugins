@@ -1,0 +1,104 @@
+.awards-slider {
+  overflow: hidden;
+}
+
+.award-data {
+  padding: 50px 20px;
+}
+
+.award-img {
+  width: 140px;
+  height: 140px;
+  background: #fff;
+  box-shadow: 0 0 23.4579px hsl(0deg 0% 65% / 25%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+/* .slick-current.slick-active.slick-center {
+  transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+}
+
+.slide {
+  transform: scale(0.75);
+  -webkit-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  -ms-transform: scale(0.75);
+  -o-transform: scale(0.75);
+}
+
+::ng-deep .slick-prev,
+::ng-deep .slick-next {
+  width: 32px;
+  height: 32px;
+}
+
+::ng-deep .slick-prev {
+  left: 0;
+}
+
+::ng-deep .slick-next {
+  right: 0;
+} */
+
+/* ::ng-deep .slick-prev:before,
+::ng-deep .slick-next:before {
+  width: 32px;
+  height: 32px;
+  opacity: 1;
+  font-size: 32px;
+}
+
+::ng-deep .slick-prev:before {
+  background: url("../../../assets/images/prev-arrow.png") no-repeat;
+}
+
+::ng-deep .slick-next:before {
+  background: url("../../../assets/images/next-arrow.png") no-repeat;
+} */
+
+/* .slide.smallscale {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+} */
+
+/* .slide.slick-active .award-img {
+  background-color: pink;
+}
+.slick-current.slick-active.slick-center .award-img {
+  background-color: yellow;
+}
+.slide.smallscale .award-img {
+  background-color: red;
+} */
+
+
+/* .slide.extrasmallscale {
+  transform: scale(0.75);
+  -webkit-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  -ms-transform: scale(0.75);
+  -o-transform: scale(0.75);
+} */
+
+.card-data .text-center {
+  background-color: #fff;
+  padding: 20px 10px;
+  box-shadow: 0 4px 40px rgb(34 34 34 / 10%);
+  border-radius: 24px;
+  position: relative;
+  height: 100%;
+}

@@ -1,0 +1,26 @@
+<div class="container py-4">
+    <h5 class="mb-3">ngx-rating</h5>
+
+    <!-- simple rating box -->
+    <div>
+        <rating [(ngModel)]="x" [max]="max" [readonly]="isReadonly" class="rating"></rating>
+        <h6>Rate: <i>{{x}}</i></h6>
+    </div>
+
+    <!-- toogle readonly rating -->
+    <div>
+        <div>
+            <rating [(ngModel)]="y" [max]="max" [readonly]="isReadonly" class="rating"></rating>
+            <h6>Rating: <i>{{y}}</i></h6>
+        </div>
+        <button class="btn btn-sm btn-info" (click)="readonly()">Toggle Readonly</button>
+    </div>
+
+    <!-- custome icons -->
+    <!-- <div>
+        <div>
+            <rating [(ngModel)]="z" [max]="max" [readonly]="isReadonly" class="rating"></rating>
+            <pre>Rate: <i>{{z}}</i></pre>
+        </div>
+    </div> -->
+</div>

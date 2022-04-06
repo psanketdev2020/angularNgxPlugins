@@ -1,0 +1,21 @@
+<div class="container py-4">
+    <h5 class="mb-3">ngx-modal</h5>
+    <button class="btn btn-secondary btn-sm" (click)="openModal(template)">Open Modal</button>
+
+    <ng-template #template>
+        <div class="modal-header">
+            <h4 class="modal-title pull-left">Welcome to angular tutorial</h4>
+            <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt provident voluptatibus, possimus eius culpa
+                et velit quas consequuntur quod sed qui, eligendi alias nihil dignissimos odit quis dolorum repudiandae
+                accusantium.</p>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-danger btn-sm" (click)="closeModal()">Close</button>
+        </div>
+    </ng-template>
+</div>

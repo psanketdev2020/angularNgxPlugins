@@ -1,0 +1,26 @@
+<div class="container py-5">
+    <h5 class="mb-4">ngx-alert</h5>
+    <alert type="danger" [dismissible]="dismissible" [isOpen]="hide">
+        <h5 class="alert-heading">Lorem ipsum dolor sit.</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus iure nam vero accusantium
+            incidunt facilis praesentium, nisi nostrum dolores.</p>
+    </alert>
+    <alert type="warning" [dismissible]="dismissible" [isOpen]="hide">
+        <h5 class="alert-heading">Lorem ipsum dolor sit.</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus iure nam vero accusantium
+            incidunt facilis praesentium, nisi nostrum dolores.</p>
+    </alert>
+    <alert type="success" [dismissible]="dismissible" [isOpen]="hide">
+        <h5 class="alert-heading">Lorem ipsum dolor sit.</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus iure nam vero accusantium
+            incidunt facilis praesentium, nisi nostrum dolores.</p>
+    </alert>
+
+    <h5 class="my-4">ngx-collapse</h5>
+    <button type="button" class="btn btn-sm btn-info mb-3"  (click)="isCollapse = !isCollapse" [attr.aria-expanded]="!isCollapse" aria-controls="collapse">Toggle Collapse</button>
+    <div id="collapse" [collapse]="isCollapse"  class="bg-warning p-3">
+        <h4>Lorem ipsum dolor sit amet.</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, omnis.</p>
+    </div>
+</div>
+
